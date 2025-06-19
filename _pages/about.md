@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yongdong's personal websites"
+title: "Welcome to Yongdong's Academic Hub"
 author_profile: true
 redirect_from: 
   - /about/

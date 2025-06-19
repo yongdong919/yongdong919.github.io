@@ -27,21 +27,27 @@ $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
 /* Default light theme for the site */
+/* 现代清新配色方案 */
+$primary-color              : #2563eb;  /* 现代蓝色 */
+$secondary-color            : #06b6d4;  /* 青色 */
+$accent-color               : #10b981;  /* 绿色 */
+$text-color                 : #1f2937;  /* 深灰色文字 */
+$light-bg                   : #f8fafc;  /* 浅灰背景 */
+
 :root {
-    --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-base-color                 : #{$text-color};
+    --global-bg-color                   : #ffffff;
+    --global-footer-bg-color            : #{$light-bg};
+    --global-border-color               : #e5e7eb;
+    --global-dark-border-color          : #d1d5db;
+    --global-code-background-color      : #f3f4f6;
+    --global-code-text-color            : #{$text-color};
+    --global-link-color                 : #{$primary-color};
+    --global-link-color-hover           : #{$secondary-color};
+    --global-link-color-visited         : #7c3aed;
+    --global-masthead-link-color        : #{$text-color};
+    --global-masthead-link-color-hover  : #{$primary-color};
+    --global-text-color                 : #{$text-color};
+    --global-text-color-light           : #6b7280;
+    --global-thead-color                : #{$light-bg};
 }

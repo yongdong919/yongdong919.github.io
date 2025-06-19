@@ -1,0 +1,31 @@
+/* 现代化样式增强 */
+.page__content {
+  h2 {
+    border-left: 4px solid var(--global-link-color);
+    padding-left: 1rem;
+    margin-top: 2rem;
+  }
+}
+
+/* 卡片样式 */
+.news-item {
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+}
+
+/* 响应式改进 */
+@media (max-width: 768px) {
+  .sidebar {
+    text-align: center;
+  }
+}
